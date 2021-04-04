@@ -7,8 +7,6 @@ Build a responsive e-commerce website with help commerce infrastructure of comme
 ## Screenshot
 ![short-clip](https://user-images.githubusercontent.com/71074389/113506708-b8772f00-9546-11eb-95cc-cb3644a75879.gif)
 
-![download](https://user-images.githubusercontent.com/71074389/113502332-09c5f500-952c-11eb-9658-6a75d4346002.png)
-
 ## Technical requirements
 * React Hook
 * React Router DOM
