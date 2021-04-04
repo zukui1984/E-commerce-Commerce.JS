@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import {
   Paper,
   Stepper,
@@ -8,9 +8,9 @@ import {
   CircularProgress,
   Divider,
   Button,
-} from "@material-ui/core";
+} from '@material-ui/core';
 
-import AddressForm from "../AddressForm";
+import AddressForm from '../AddressForm';
 import PaymentForm from "../PaymentForm";
 import useStyles from "./styles";
 import { commerce } from "../../../lib/commerce";
@@ -82,7 +82,6 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
 
   return (
     <>
-    <CssBaseLine />
       <div className={classes.toolbar} />
       <main className={classes.layout}>
         <Paper className={classes.paper}>

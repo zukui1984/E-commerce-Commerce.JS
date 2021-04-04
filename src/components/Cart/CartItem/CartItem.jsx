@@ -31,13 +31,13 @@ const CartItem = ({ item, onUpdateCartQty, onRemoveFromCart }) => {
           <Button
             type="button"
             size="small"
-            onClick={() => onUpdateCartQty(item.id, item.quantity -1)}
+            onClick={() => onUpdateCartQty(item.id, item.quantity - 1)}
           >-</Button>
           <Typography>{item.quantity}</Typography>
           <Button
             type="button"
             size="small"
-            onClick={() => onUpdateCartQty(item.id, item.quantity +1)}
+            onClick={() => onUpdateCartQty(item.id, item.quantity + 1)}
           >+</Button>
         </div>
         <Button
