@@ -12,7 +12,7 @@ Build a responsive e-commerce website with help commerce infrastructure of comme
 * commerce.js https://commercejs.com 
 * Stripe.js - online transaction payment https://stripe.com
 * Material-UI Core & Icons
-* API KEY 
+* API KEY (commerce.js & stripe.js)
 
 ## Steps
 1. Install node.js and verify after that
