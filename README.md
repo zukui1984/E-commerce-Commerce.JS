@@ -110,7 +110,7 @@ npm install @stripe/react-stripe-js @stripe/stripe-js
     - Run "heroku login"
     - Run "create heroku ecommerce_2024"
     - Setup environment variables:
-        - heroku config:set EBAY_APP_ID=Your_eBay_App_ID
-        - heroku config:set EBAY_OAUTH_TOKEN=Your_eBay_OAuth_Token
+        - heroku config:set REACT_APP_CHEC_PUBLIC_KEY
+        - heroku config:set REACT_APP_STRIPE_PUBLIC_KEY
     - Deploy code "git push heroku master"
     - Open app "heroku open"
