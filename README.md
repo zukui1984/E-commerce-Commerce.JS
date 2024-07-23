@@ -13,6 +13,7 @@ Build a responsive e-commerce website with help commerce infrastructure of comme
 * Stripe.js - online transaction payment https://stripe.com
 * Material-UI Core & Icons
 * API KEY (commerce.js & stripe.js)
+* Heroku - Hosting
 
 ## Steps
 1. Install node.js and verify after that
@@ -104,3 +105,12 @@ npm install @stripe/react-stripe-js @stripe/stripe-js
   ```npm
   npm start
   ```
+9. Setup Heroku
+    - Install & register heroku
+    - Run "heroku login"
+    - Run "create heroku ecommerce_2024"
+    - Setup environment variables:
+        - heroku config:set EBAY_APP_ID=Your_eBay_App_ID
+        - heroku config:set EBAY_OAUTH_TOKEN=Your_eBay_OAuth_Token
+    - Deploy code "git push heroku master"
+    - Open app "heroku open"
