@@ -13,7 +13,7 @@ Build a responsive e-commerce website with help commerce infrastructure of comme
 * Stripe.js - online transaction payment https://stripe.com
 * Material-UI Core & Icons
 * API KEY (commerce.js & stripe.js)
-* Heroku - Hosting
+* Netifly https://www.netlify.com
 
 ## Steps
 1. Install node.js and verify after that
@@ -105,12 +105,4 @@ npm install @stripe/react-stripe-js @stripe/stripe-js
   ```npm
   npm start
   ```
-9. Setup Heroku
-    - Install & register heroku
-    - Run "heroku login"
-    - Run "create heroku ecommerce_2024"
-    - Setup environment variables:
-        - heroku config:set REACT_APP_CHEC_PUBLIC_KEY
-        - heroku config:set REACT_APP_STRIPE_PUBLIC_KEY
-    - Deploy code "git push heroku master"
-    - Open app "heroku open"
+9. Deploy the code to Netifly platform
