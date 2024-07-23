@@ -9,7 +9,7 @@ Build a responsive e-commerce website with help commerce infrastructure of comme
 
 ## Technical requirements
 * React Hook / Router DOM
-* commerce.js https://commercejs.com 
+* commerce.js - headless e-commerce https://commercejs.com
 * Stripe.js - online transaction payment https://stripe.com
 * Material-UI Core & Icons
 * API KEY (commerce.js & stripe.js)
